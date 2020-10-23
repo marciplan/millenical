@@ -20,9 +20,9 @@ export default function Home() {
       </main>
       <content className={styles.secondary}>
         <p className={styles.holder}>
-          Busy lifes we're living, huh? We want to be productive but we also
-          want to see our friends and families. So do your friends and families.
-          Millenical is going to solve for that.
+          Busy lifes we're living, huh? We want to be productive at work and
+          make the most of the time with our friends and families. It's time our
+          calendar took that into account.
         </p>
         <p className={styles.code}>Launching in 2021</p>
       </content>
@@ -32,7 +32,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Let's keep in touch. hey@millenical.com
+          Let's keep in touch:&nbsp;
+          <span className={styles.highlight}>hey@millenical.com</span>
         </a>
       </footer>
     </div>
